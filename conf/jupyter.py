@@ -12,7 +12,7 @@ c.IPKernelApp.pylab = 'inline'  # if you want plotting support always in your no
 
 # Notebook config
 c.NotebookApp.notebook_dir = 'data'
-c.NotebookApp.allow_origin = config.get("URL", u"")  # put your public IP Address here
+c.NotebookApp.allow_origin = config.get("IP", u"")  # put your public IP Address here
 c.NotebookApp.ip = '0.0.0.0'
 c.NotebookApp.allow_remote_access = True
 c.NotebookApp.open_browser = False
