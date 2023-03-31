@@ -8,7 +8,7 @@ COPY . ./
 
 # RUN pip install jupyter
 # RUN pip install python-dotenv
-
+RUN pip install --upgrade pip
 RUN pip install -r ./build/requirements.txt
 RUN chmod +x ./scripts/entrypoint.sh
 
